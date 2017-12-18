@@ -21,7 +21,7 @@
 *You can download the latest sample APK from this repo here:* https://github.com/enricocid/ColorBox-library/blob/master/files/release/app-release.apk
 
 
-#Standalone app
+# Standalone app
 
 *If You want to try the ColorBox here is also a standalone version of the homonym library. It has the same features, in addition You can apply colors as solid wallpapers or copy the hex color code to clipboard :D*
  
@@ -43,7 +43,7 @@ The minimum API level supported by this library is API 21 (Lollipop).*
 
 ### Download
 
-* - If You are using gradle:3.0+ You should use '*implementation*' configuration. Add the following dependency to your project's build.gradle:*
+- If You are using gradle:3.0+ You should use '*implementation*' configuration. Add the following dependency to your project's build.gradle:
 
 ```gradle
 dependencies {
@@ -52,7 +52,7 @@ dependencies {
 }
 ```
 
-* - For gradle versions < 3.0 use 'compile' configuration:
+- For gradle versions < 3.0 use 'compile' configuration:
 
 ```gradle
 dependencies {
@@ -68,8 +68,10 @@ dependencies {
 
 ### To display the color box simply:
 
-``` java
-ColorBox.showColorBox(String tag, Activity activity);```
+```java
+ColorBox.showColorBox(String tag, Activity activity);
+```
+
 
 **tag:** it's a string used to identify the ColorBox.
 
@@ -79,25 +81,28 @@ ColorBox.showColorBox(String tag, Activity activity);```
 
 *In Your XML add:*
 
-``` xml
-<com.github.colorbox.ColorBoxPreference android:key="pref" android:title="@string/your_string"/>```
+```xml
+<com.github.colorbox.ColorBoxPreference android:key="pref" android:title="@string/your_string"/>
+```
 
 **note:** don't forget to add the key and title to this preference.
 
 *In You Preference fragment (onResume) add this*
 
-``` java
+```java
 @Override
     public void onResume() {
         super.onResume();
 
-        **ColorBox.registerPreferenceUpdater(Activity activity);**
-    }```
+        ColorBox.registerPreferenceUpdater(Activity activity);
+    }
+```
 
 # To retrieve the color:
 
-``` java
-int color1 = ColorBox.getColor(String tag, Context context);```
+```java
+int color1 = ColorBox.getColor(String tag, Context context);
+```
 
 
 
@@ -105,18 +110,18 @@ int color1 = ColorBox.getColor(String tag, Context context);```
 
 # Utilities:
 
-###ColorBox.getComplementaryColor(int colorToInvert)
+### ColorBox.getComplementaryColor(int colorToInvert)
 
 *Returns inverted color:*
 
 ![ScreenShot](https://github.com/enricocid/ColorBox-library/blob/master/files/inverted.png)
 
 
-###ColorBox.getHexadecimal(int color)
+### ColorBox.getHexadecimal(int color)
 
 *Return the hexadecimal code from color.*
 
-###ColorBox.isColorDark(int color)
+### ColorBox.isColorDark(int color)
 
 *Determine if the color is dark or light.*
 
