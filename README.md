@@ -1,5 +1,10 @@
 # ColorBox library
 
+[ ![Download](https://api.bintray.com/packages/enricod/colorbox/cbl/images/download.svg?version=1.0.3) ](https://bintray.com/enricod/colorbox/cbl/1.0.3/link)
+
+[![Android Arsenal](androidarsenalhere)
+
+
 ### Features
 
 - Dynamic color preview;
@@ -9,9 +14,7 @@
 - ColorBox preference;
 - Easy to implement;
 
- [ ![Download](https://api.bintray.com/packages/enricod/colorbox/cbl/images/download.svg?version=1.0.3) ](https://bintray.com/enricod/colorbox/cbl/1.0.3/link)
 
-[![Android Arsenal](androidarsenalhere)
 
 ![ScreenShot](https://github.com/enricocid/ColorBox-library/blob/master/files/art.png)
 ------
@@ -37,9 +40,9 @@
 ### Repository
 
 *The Gradle dependency is available via [jCenter](https://bintray.com/enricod/Enrico/ColorBox-library/view).
-jCenter is the default Maven repository used by Android Studio.
+jCenter is the default Maven repository used by Android Studio.*
 
-The minimum API level supported by this library is API 21 (Lollipop).*
+*The minimum API level supported by this library is API 21 (Lollipop).*
 
 ### Download
 
