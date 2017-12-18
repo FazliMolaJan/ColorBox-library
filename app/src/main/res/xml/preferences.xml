@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title" />
+
+    <com.github.colorbox.ColorBoxPreference
+        android:key="pref"
+        android:title="@string/app_name"/>
+    <com.github.colorbox.ColorBoxPreference
+        android:key="pref1"
+        android:title="@string/app_name"/>
+    <com.github.colorbox.ColorBoxPreference
+        android:key="pref2"
+        android:title="@string/app_name"/>
+    <com.github.colorbox.ColorBoxPreference
+        android:key="pref3"
+        android:title="@string/app_name"/>
+
+</PreferenceScreen>

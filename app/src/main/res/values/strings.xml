@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">ColorBox</string>
+    <string name="pref_title">Preferences example</string>
+</resources>
