@@ -101,7 +101,7 @@ ColorBox.showColorBox(String tag, Activity activity);
 # To retrieve the color:
 
 ```java
-int color1 = ColorBox.getColor(String tag, Context context);
+int color = ColorBox.getColor(String tag, Context context);
 ```
 
 
@@ -117,9 +117,16 @@ int color1 = ColorBox.getColor(String tag, Context context);
 ![ScreenShot](https://github.com/enricocid/ColorBox-library/blob/master/files/inverted.png)
 
 
+
+
+
 ### ColorBox.getHexadecimal(int color)
 
-*Return the hexadecimal code from color.*
+*Returns the hexadecimal code from color.*
+
+
+
+
 
 ### ColorBox.isColorDark(int color)
 
@@ -128,7 +135,7 @@ int color1 = ColorBox.getColor(String tag, Context context);
 
 
 
-**THAT'S ALL FOLKS!**
+# THAT'S ALL FOLKS!
 
 
 
