@@ -82,13 +82,13 @@ ColorBox.showColorBox(String tag, Activity activity);
 
 ![ScreenShot](https://github.com/enricocid/ColorBox-library/blob/master/files/preferences.png)
 
-*In Your XML add:*
+*In Your preferences XML add:*
 
 ```xml
 <com.github.colorbox.ColorBoxPreference android:key="the_key_want" android:title="@string/your_string"/>
 ```
 
-**note:** don't forget to add a (different) key for every ColorBoxPreference You add and a title.
+**note:** don't forget to add a (different) key and a title for every ColorBoxPreference You add in Your preferences XML.
 
 *In You Preference fragment (onResume) add this*
 
