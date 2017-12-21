@@ -8,7 +8,7 @@
 ### Features
 
 - Dynamic color preview;
-- Change color **A**lpha **R**ed **G**reen and **B**lue sliders;
+- Change the color through **A**lpha, **R**ed, **G**reen, and **B**lue sliders;
 - Clearable recent colors;
 - Material palettes (>200 colors!);
 - ColorBox preference;
