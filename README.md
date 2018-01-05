@@ -25,16 +25,6 @@
 *You can download the latest sample APK from this repo here:* https://github.com/enricocid/ColorBox-library/blob/master/files/release/app-release.apk
 
 
-# Standalone app
-
-*If You want to try the ColorBox here is also a standalone version of the homonym library. It has the same features, in addition You can apply colors as solid wallpapers or copy the hex color code to clipboard :D*
- 
-<a href="https://play.google.com/store/apps/details?id=com.github.colorbox" target="_blank">
-  <img alt="Get it on Google Play"
-       src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="60"/>
-</a>
-
-
 
 # Gradle Dependency
 
