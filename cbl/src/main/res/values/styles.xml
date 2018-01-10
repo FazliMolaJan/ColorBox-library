@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ColorBoxTheme" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="ColorBoxTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="elements_color">@android:color/black</item>
+        <item name="ripple_color">?android:attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="ColorBoxThemeDark" parent="android:Theme.Material.NoActionBar">
+        <item name="elements_color">@android:color/white</item>
+        <item name="ripple_color">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="ColorBoxThemeBlack" parent="android:Theme.Material.NoActionBar">
+        <item name="elements_color">@android:color/white</item>
+        <item name="ripple_color">?android:attr/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
 </resources>

@@ -18,7 +18,7 @@ public class ColorBoxActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTheme(R.style.ColorBoxTheme);
+        setTheme(ColorBox.getTheme());
         setContentView(R.layout.box_activity);
 
         ViewPager pager = findViewById(R.id.viewpager);

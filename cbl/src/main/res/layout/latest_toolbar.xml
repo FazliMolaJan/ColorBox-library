@@ -12,7 +12,7 @@
         android:gravity="center_vertical"
         android:text="@string/latest"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
-        android:textColor="@android:color/black"
+        android:textColor="?attr/elements_color"
         android:textStyle="bold" />
 
     <ImageButton
@@ -23,5 +23,6 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/ripple"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_delete" />
+        android:src="@drawable/ic_delete"
+        android:tint="?attr/elements_color"/>
 </FrameLayout>

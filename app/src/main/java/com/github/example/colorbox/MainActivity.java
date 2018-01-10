@@ -34,14 +34,14 @@ public class MainActivity extends Activity {
         mButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ColorBox.showColorBox(TAG1 ,MainActivity.this);
+                ColorBox.showColorBox(TAG1 ,MainActivity.this, ColorBox.LIGHT);
             }
         });
 
         mButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ColorBox.showColorBox(TAG2 ,MainActivity.this);
+                ColorBox.showColorBox(TAG2 ,MainActivity.this, ColorBox.DARK);
             }
         });
 

@@ -16,20 +16,35 @@ public class ColorBox {
     private static Map<String, Boolean> isPreferenceChanged = new HashMap<>();
     private static String mTag;
     private static boolean sPreference = false;
+    private static int mTheme;
     private static String RECENT_KEY = "recent_set";
 
+    static final int THEME_DEFAULT = 0;
+    static final int THEME_DARK = 1;
+    static final int THEME_BLACK = 2;
+
+    public static int LIGHT = R.style.ColorBoxTheme;
+    public static int DARK = R.style.ColorBoxThemeDark;
+    public static int BLACK = R.style.ColorBoxThemeBlack;
+
     //method to show ColorBox
-    public static void showColorBox(String tag, Context context) {
+    public static void showColorBox(String tag, Context context, int theme) {
 
         context.startActivity(new Intent(context, ColorBoxActivity.class));
         mTag = tag;
+        mTheme = theme;
+    }
+
+    static int getTheme() {
+        return mTheme;
     }
 
     //method to show ColorBox
-    static void showColorBoxPreference(String tag, Context context) {
+    static void showColorBoxPreference(String tag, Context context, int theme) {
 
         context.startActivity(new Intent(context, ColorBoxActivity.class));
         mTag = tag;
+        mTheme = theme;
         sPreference = true;
     }
 
@@ -74,7 +89,9 @@ public class ColorBox {
 
         Set<String> latest = getLatest(context);
 
-        if (latest == null) {
+        if (latest != null) {
+            latest.add(String.valueOf(color));
+        } else {
             latest = new HashSet<>();
         }
 
