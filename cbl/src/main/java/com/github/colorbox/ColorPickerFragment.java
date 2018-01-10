@@ -167,7 +167,7 @@ public class ColorPickerFragment extends Fragment {
                 startRotateAnimation.setAnimationListener(new Animation.AnimationListener() {
                     @Override
                     public void onAnimationStart(Animation animation) {
-
+                        //TODO
                     }
 
                     @Override
@@ -177,7 +177,7 @@ public class ColorPickerFragment extends Fragment {
 
                     @Override
                     public void onAnimationRepeat(Animation animation) {
-
+                        //TODO
                     }
                 });
                 resetButton.startAnimation(startRotateAnimation);

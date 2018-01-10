@@ -10,11 +10,6 @@ import android.view.View;
 public class ColorBoxActivity extends FragmentActivity {
 
     @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -29,7 +24,7 @@ public class ColorBoxActivity extends FragmentActivity {
         pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
+                //TODO
             }
 
             @Override
@@ -48,6 +43,7 @@ public class ColorBoxActivity extends FragmentActivity {
 
             @Override
             public void onPageScrollStateChanged(int state) {
+                //TODO
             }
         });
     }

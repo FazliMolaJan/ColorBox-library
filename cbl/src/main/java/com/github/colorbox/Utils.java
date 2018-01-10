@@ -91,12 +91,12 @@ class Utils {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
         });
 
@@ -112,12 +112,12 @@ class Utils {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
         });
 
@@ -132,12 +132,12 @@ class Utils {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
         });
 
@@ -151,12 +151,12 @@ class Utils {
 
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                //TODO
             }
         });
     }
