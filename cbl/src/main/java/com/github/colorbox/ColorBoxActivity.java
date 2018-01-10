@@ -48,7 +48,6 @@ public class ColorBoxActivity extends FragmentActivity {
 
             @Override
             public void onPageScrollStateChanged(int state) {
-                //TODO
             }
         });
     }
