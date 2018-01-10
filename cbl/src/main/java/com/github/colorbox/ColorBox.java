@@ -93,8 +93,7 @@ public class ColorBox {
         int green = 255 - g;
         int blue = 255 - b;
 
-        return android.graphics.Color.argb(255, red, green, blue);
-
+        return Color.argb(255, red, green, blue);
     }
 
     public static boolean isColorDark(int color) {
