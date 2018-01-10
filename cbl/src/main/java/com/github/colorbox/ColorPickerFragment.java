@@ -59,6 +59,7 @@ public class ColorPickerFragment extends Fragment {
 
             case 4:
                 returned = Color.argb(A, R, G, B);
+                break;
         }
 
         return returned;
