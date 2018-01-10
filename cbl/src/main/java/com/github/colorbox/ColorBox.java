@@ -89,9 +89,7 @@ public class ColorBox {
 
         Set<String> latest = getLatest(context);
 
-        if (latest != null) {
-            latest.add(String.valueOf(color));
-        } else {
+        if (latest == null) {
             latest = new HashSet<>();
         }
 
