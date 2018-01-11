@@ -54,13 +54,11 @@ public class ColorBox {
 
     public static void registerPreferenceUpdater(Activity activity) {
 
-        if (isPreferenceChanged.containsKey(mTag)) {
-            if (sPreference && isPreferenceChanged.get(mTag)) {
+            if (isPreferenceChanged.containsKey(mTag) && sPreference && isPreferenceChanged.get(mTag)) {
 
                 activity.recreate();
                 sPreference = false;
             }
-        }
     }
 
     static void setColor(Activity activity, int color) {
