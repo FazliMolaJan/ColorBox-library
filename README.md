@@ -90,7 +90,7 @@ ColorBox.showColorBox(String tag, Activity activity, int theme);
 
 **note:** don't forget to add a (different) key and a title for every ColorBoxPreference You add in Your preferences XML.
 
-You can set the theme of the ColorBox by adding the *setTheme* attribute. The possible values are 1 and 2. The default value is 0, corresponding to the light theme (You don't need to specify this attributes if You want to keep the light theme.
+You can set the theme of the ColorBox by adding the *setTheme* attribute. The possible values are 1 and 2. The default value is 0, corresponding to the light theme (You don't need to specify this attribute if You want to keep the light theme).
 
 - For Dark theme (1):
 
