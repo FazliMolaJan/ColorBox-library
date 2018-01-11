@@ -31,6 +31,7 @@ public class ColorBoxActivity extends FragmentActivity {
             public void onPageSelected(int position) {
 
                 switch (position) {
+                    default:
                     case 0:
                         Utils.setBarsColor(ColorBoxActivity.this, Color.DKGRAY);
                         break;

@@ -42,10 +42,11 @@ public class ColorPickerFragment extends Fragment {
         final int G = GSeekBar.getProgress();
         final int B = BSeekBar.getProgress();
 
-        int returned = A;
+        int returned;
 
         switch (which) {
 
+            default:
             case 1:
                 returned = R;
                 break;
