@@ -14,7 +14,7 @@ ext {
     siteUrl = 'https://github.com/enricocid/ColorBox-library'
     gitUrl = 'https://github.com/enricocid/ColorBox-library.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.1'
 
     developerId = 'enricocid'
     developerName = 'enrico'
@@ -27,7 +27,7 @@ ext {
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.2'
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 21

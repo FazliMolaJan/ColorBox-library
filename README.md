@@ -1,6 +1,6 @@
 # ColorBox library
 
-[ ![Download](https://api.bintray.com/packages/enricod/colorbox/cbl/images/download.svg?version=1.0.3) ](https://bintray.com/enricod/colorbox/cbl/1.0.3/link)
+[ ![Download](https://api.bintray.com/packages/enricod/colorbox/cbl/images/download.svg?version=1.1) ](https://bintray.com/enricod/colorbox/cbl/1.0.3/link)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/62a36fd9b7164d4287f7ec9eca187a43)](https://www.codacy.com/app/enricocid/ColorBox-library?utm_source=github.com&utm_medium=referral&utm_content=enricocid/ColorBox-library&utm_campaign=badger)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ColorBox-red.svg?style=flat)](https://android-arsenal.com/details/1/6579)
 [![API](https://img.shields.io/badge/API-21%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=21)
@@ -13,6 +13,7 @@
 - Clearable recent colors;
 - Material palettes (>200 colors!);
 - ColorBox preference;
+- Themes (Light, Dark, Black);
 - Easy to implement;
 
 
@@ -42,7 +43,7 @@ jCenter is the default Maven repository used by Android Studio.*
 ```gradle
 dependencies {
     // ... other dependencies here
-    implementation 'com.github.enricocid:cbl:1.0.3'
+    implementation 'com.github.enricocid:cbl:1.1'
 }
 ```
 
@@ -51,7 +52,7 @@ dependencies {
 ```gradle
 dependencies {
     // ... other dependencies here
-    compile 'com.github.enricocid:cbl:1.0.3'
+    compile 'com.github.enricocid:cbl:1.1'
 }
 ```
 
@@ -63,11 +64,19 @@ dependencies {
 ### To display the color box simply:
 
 ```java
-ColorBox.showColorBox(String tag, Activity activity);
+ColorBox.showColorBox(String tag, Activity activity, int theme);
 ```
 
 
 **tag:** it's a string used to identify the ColorBox.
+
+**theme:** Possible values are:
+
+![ScreenShot](https://github.com/enricocid/ColorBox-library/blob/master/files/themes.png)
+
+- ColorBox.LIGHT;
+- ColorBox.DARK;
+- ColorBox.BLACK;
 
 # Usage instructions for Preferences
 
@@ -80,6 +89,24 @@ ColorBox.showColorBox(String tag, Activity activity);
 ```
 
 **note:** don't forget to add a (different) key and a title for every ColorBoxPreference You add in Your preferences XML.
+
+You can set the theme of the ColorBox by adding the *setTheme* attribute. The possible values are 1 and 2. The default value is 0, corresponding to the light theme (You don't need to specify this attributes if You want to keep the light theme.
+
+- For Dark theme (1):
+
+```xml
+<com.github.colorbox.ColorBoxPreference
+app:setTheme="1"
+android:key="the_key_u_want" android:title="@string/your_string"/>
+```
+
+- For Black theme (2):
+
+```xml
+<com.github.colorbox.ColorBoxPreference 
+app:setTheme="2"
+android:key="the_key_u_want" android:title="@string/your_string"/>
+```
 
 *In You Preference fragment (onResume) add this*
 
