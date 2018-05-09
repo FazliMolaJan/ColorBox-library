@@ -1,3 +1,7 @@
+
+
+![64px](https://user-images.githubusercontent.com/38810169/39779582-714ffdf6-532b-11e8-8976-3cca95092005.jpg)
+
 # ColorBox library
 
 [ ![Download](https://api.bintray.com/packages/enricod/colorbox/cbl/images/download.svg?version=1.1.1) ](https://bintray.com/enricod/colorbox/cbl/1.1.1/link)
