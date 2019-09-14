@@ -1,6 +1,6 @@
-
-
 ![64px](https://user-images.githubusercontent.com/38810169/39779582-714ffdf6-532b-11e8-8976-3cca95092005.jpg)
+
+#DEPRECATED
 
 ### Credits for the logo goes to Hafiz Ahmmed (https://github.com/hafizahmmed)
 
